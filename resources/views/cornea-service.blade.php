@@ -1,0 +1,129 @@
+@extends('layouts.app')
+@section('pageTitle', 'Cornea -')
+@section('content')
+
+
+
+
+ <!-- Start Page Title Area -->
+ <section class="page-title-area page-title-bg4">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="page-title-content">
+                    <h1>Cornea</h1>
+                    <ul>
+                        <li><a href="{{route('index')}}">Home</a></li>
+                        <li> <a href="{{route('services')}}">Services</a></li>
+                        <li>Cornea</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Page Title Area -->
+
+<!-- Start Service Area -->
+<section class="shop-area ptb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-product-box">
+                    <div class="product-image">
+                        <a href="{{route('pterygium')}}">
+                            <img class="lazyload" data-src="img/services/pterygium.jpg" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="product-content">
+                        <h3><a href="{{route('pterygium')}}">Pterygium </a></h3>
+                        <p>Pterygium is a growth of the conjunctive or mucous membrane with blood vessels tgat covers the white part of eye over the cornea.</p>
+                        <a href="{{route('pterygium')}}" class="read-more-btn">Read more <i class="fas fa-arrow-right"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-product-box">
+                    <div class="product-image">
+                        <a href="{{route('kearatocnus')}}">
+                            <img class="lazyload" data-src="img/services/Keratoconus.jpg" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="product-content">
+                        <h3><a href="{{route('kearatocnus')}}">Keratoconus </a></h3>
+                        <p>Keratoconus is a bilateral ocular disorder in which the cornea assumes a conical shape due to thinning of the stromal collage tissue.</p>
+                        <a href="{{route('kearatocnus')}}" class="read-more-btn">Read more <i class="fas fa-arrow-right"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-product-box">
+                    <div class="product-image">
+                        <a href="{{route('cornea-ulcer')}}">
+                            <img class="lazyload" data-src="img/services/cornea-ulcer.jpg" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="product-content">
+                        <h3><a href="{{route('cornea-ulcer')}}">Ulcers </a></h3>
+                        <p>Your doctor might start with giving you a antibiotics, antifungal or antiviral drops.
+                            A steroid or anti-inflammatory eye drop might be added.
+                        </p>
+                        <a href="{{route('cornea-ulcer')}}" class="read-more-btn">Read more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-product-box">
+                    <div class="product-image">
+                        <a href="{{route('corneal-transplant')}}">
+                            <img class="lazyload" data-src="img/services/corneal-transplant.jpg" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="product-content">
+                        <h3><a href="{{route('corneal-transplant')}}">Corneal Transplant</a></h3>
+                        <p>Corneas used for transplantation have been donated to the eye bank from a deceased person.
+                            All corneas are carefully screened and prepared by the eye bank.
+                        </p>
+                        <a href="{{route('corneal-transplant')}}" class="read-more-btn">Read more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Service Area -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    .service-link > a{
+        color: #19ce67 !important;
+    }
+</style>
+
+@endsection
+
+
+
+

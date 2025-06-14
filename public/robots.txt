@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /tag/
+Disallow: /category/
+Disallow: /zx-14.asp
+Sitemap: https://vissioneyes.com/sitemap.xml
